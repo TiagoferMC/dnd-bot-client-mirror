@@ -1,19 +1,20 @@
 <template>
     <div>
-        <Navbar/>
-        <router-view/>
+        <Navbar />
+        <router-view />
     </div>
 </template>
 
 <style lang="scss">
-
 * {
     padding: 0;
     margin: 0;
 }
 #app {
     a {
-        &.router-link-exact-active {}
+        &.router-link-exact-active {
+            background: blue;
+        }
     }
 }
 </style>
